@@ -214,6 +214,9 @@ a {
     font-size: 68px;
     font-weight: 800;
     line-height: 68px;
+    background: url("../images/redtable.png");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   #headline .headline-text {
