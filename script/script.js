@@ -2,40 +2,40 @@ const menuBtn = document.querySelector('.menu-btn');
 const menuBar = document.querySelector('.top-header ul');
 const itemDetails = [
   {
-    name: 'name1',
-    img: 'images/house.jpg',
-    detail1: 'Listen to the introductions about the various items on display.',
+    name: 'Gold Chalice',
+    img: 'images/goldcup.jpg',
+    detail1: 'Gold chalice from Ethiopia looted by British soldiers at Magdala.',
+    detail2: 'Old gold chalice taken from Ethiopia at the battle of Magdala in 1868.',
+  },
+  {
+    name: 'Emperial Watch',
+    img: 'images/watch.jpg',
+    detail1: 'Historical pocket watch made for Ethiopian Emperror.',
+    detail2: 'Ancient pocket watch said to be the property of Emperror Haile Selassie of Ethiopia.',
+  },
+  {
+    name: 'Beatles Record',
+    img: 'images/beatles.jpg',
+    detail1: 'Beatles Sgt. Pepper\'s \'Lonely Hearts Club\' Vinyl Record',
     detail2: 'Listen to the introductions about the various items on display.',
   },
   {
-    name: 'name2',
-    img: 'images/house.jpg',
-    detail1: 'Listen to the introductions about the various items on display.',
-    detail2: 'Listen to the introductions about the various items on display.',
+    name: 'RCA Victor Radios',
+    img: 'images/radios.jpg',
+    detail1: 'Founded in 1919 as a subsidiary of General Electric, the Radio Corporation of America (RCA) was a pioneer in the radio industry.',
+    detail2: 'Wooden radios that dominated the marketplace in the \'30s and \'40s. Colorful tube radios make of Bakelite and, later, other nonresin plastics.',
   },
   {
-    name: 'name3',
-    img: 'images/house.jpg',
-    detail1: 'Listen to the introductions about the various items on display.',
-    detail2: 'Listen to the introductions about the various items on display.',
+    name: 'First Edition Books',
+    img: 'images/books.jpg',
+    detail1: 'Old and rare first edition books on display.',
+    detail2: 'Rare first edition of Tolstoy\'s War and Peace, one of the greatest novels ever written, in the original Russian. Handsomely bound, with the original printed paper front wrappers of parts 2-5 bound in.',
   },
   {
-    name: 'name4',
-    img: 'images/house.jpg',
-    detail1: 'Listen to the introductions about the various items on display.',
-    detail2: 'Listen to the introductions about the various items on display.',
-  },
-  {
-    name: 'name5',
-    img: 'images/house.jpg',
-    detail1: 'Listen to the introductions about the various items on display.',
-    detail2: 'Listen to the introductions about the various items on display.',
-  },
-  {
-    name: 'name6',
-    img: 'images/house.jpg',
-    detail1: 'Listen to the introductions about the various items on display.',
-    detail2: 'Listen to the introductions about the various items on display.',
+    name: 'Royal Typewriters',
+    img: 'images/typewriter.jpg',
+    detail1: 'The Brooklyn-based Royal Typewriter company introduced their portable version in 1926.',
+    detail2: 'Designed to minimize the clackety-clack of the keys, it was the top of the line at the time, says antiques expert Helaine Fendelman.',
   },
 ];
 
@@ -75,14 +75,25 @@ for (let i = 0; i < 6; i += 1) {
   renderCards(i);
 }
 const cards = document.querySelectorAll('.item-card');
+const morebtn = document.querySelector('.more');
+const lessbtn = document.querySelector('.less');
+let opened = false;
 
 function moreCards() {
-  for (let i = 2; i < 6; i += 1) {
-    if (cards[i].style.display === 'none') {
+  if (!opened) {
+    for (let i = 2; i < 6; i += 1) {
       cards[i].style.display = 'flex';
-    } else {
+    }
+    opened = true;
+    morebtn.classList.toggle('hide-item');
+    lessbtn.classList.toggle('hide-item');
+  } else {
+    for (let i = 2; i < 6; i += 1) {
       cards[i].style.display = 'none';
     }
+    opened = false;
+    morebtn.classList.toggle('hide-item');
+    lessbtn.classList.toggle('hide-item');
   }
 }
 
