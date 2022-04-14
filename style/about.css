@@ -142,9 +142,19 @@ a {
 
 #headline h2 {
   font-family: sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  color: #666464;
+  font-weight: 400;
+  color: #3e3e3e;
+  position: relative;
+  width: fit-content;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#headline h2 i {
+  width: 5px;
+  position: absolute;
+  left: 260px;
+  top: -1px;
 }
 
 #about-logo {
@@ -413,15 +423,7 @@ a {
   #headline * {
     margin: 5px 0;
     width: 60vw;
-    max-width: 800px;
-    min-width: 650px;
-  }
-
-  #headline div {
-    color: #ec5242;
-    font-family: lato, serif;
-    font-size: 42px;
-    font-weight: 300;
+    min-width: 0;
   }
 
   #headline h1 {
@@ -430,6 +432,7 @@ a {
     font-size: 60px;
     font-weight: 800;
     line-height: 68px;
+    min-width: 600px;
   }
 
   #headline .headline-text {
@@ -439,16 +442,26 @@ a {
     font-family: lato, serif;
     width: 40vw;
     line-height: 25px;
+    min-width: 600px;
   }
 
   #headline .headline-address {
     font-family: lato, serif;
+    min-width: 600px;
   }
 
   #headline h2 {
     font-family: sans-serif;
     font-weight: 600;
     color: #3e3e3e;
+    position: relative;
+    width: fit-content;
+  }
+
+  #headline h2 i {
+    position: absolute;
+    left: 260px;
+    top: -1px;
   }
 
   #about-logo * {
