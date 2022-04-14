@@ -1,4 +1,9 @@
 # The Grand Auction (Capstone 1)
+![image](https://user-images.githubusercontent.com/93576145/163423930-da2f031f-2216-4e43-a0bd-2eb2d14857ca.png)
+
+![image](https://user-images.githubusercontent.com/93576145/163423853-031a0bee-5b06-4d55-9fbd-8bc97c5781e5.png)
+
+![image](https://user-images.githubusercontent.com/93576145/163423734-6bead597-76a3-487c-be6c-3d23108407b8.png)
 
 ## Description
 **This Project about The Grand Auction 2022 contains the program, featured items, and sponser sections**
@@ -27,6 +32,10 @@
 
 # Site live demo
 [Check live website](https://ibel251.github.io/grand-auction/)
+
+# Getting started
+## Prerequisites
+Web Browser.
 
 ## 🤝 Contributing
 
