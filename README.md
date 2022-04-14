@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+# The Grand Auction (Capstone 1)
 
-You can use the [editor on GitHub](https://github.com/iBel251/grand-auction/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Description
+**This Project about The Grand Auction 2022 contains the program, featured items, and sponser sections**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  **My activities on this project**
 
-### Markdown
+  1. Created project files using githup work flow.
+  2. Create two pages Home and about.
+  3. Add mobile menu and Add items section dynamically using JS.
+  4. Include auction events.
+  5. stick to design, colors, and fonts in project requirments.
+  
+  **All images and names used in this website are for learning and display purposes only.**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Built With
 
-```markdown
-Syntax highlighted code block
+- Major languages:- Html, Css and Javascript
 
-# Header 1
-## Header 2
-### Header 3
+- Frameworks:- VS code
 
-- Bulleted
-- List
+👤 **Author1**:- **Imran Belete**
 
-1. Numbered
-2. List
+- GitHub : [@ibel251](https://github.com/githubhandle)
+- Twitter : [@ImranBel251](https://twitter.com/twitterhandle)
+- LinkedIn : [ibbimran7@gmail.com](https://linkedin.com/in/linkedinhandle)
 
-**Bold** and _Italic_ and `Code` text
+# Site live demo
+[Check live website](https://ibel251.github.io/grand-auction/)
 
-[Link](url) and ![Image](src)
-```
+## 🤝 Contributing
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Contributions, issues, and feature requests are welcome!
 
-### Jekyll Themes
+Feel free to check the [issues page](../../issues/). issues page. 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iBel251/grand-auction/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Show your support
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Give a ⭐️ if you like this project!
+
+
+
+## Acknowledgments
+
+Thanks to [Cindy Shin](https://www.behance.net/adagio07), Her design is the base template for this project.
+
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
