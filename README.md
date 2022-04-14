@@ -1,37 +1,61 @@
-## Welcome to GitHub Pages
+# The Grand Auction (Capstone 1)
+![image](https://user-images.githubusercontent.com/93576145/163423930-da2f031f-2216-4e43-a0bd-2eb2d14857ca.png)
 
-You can use the [editor on GitHub](https://github.com/iBel251/grand-auction/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![image](https://user-images.githubusercontent.com/93576145/163423853-031a0bee-5b06-4d55-9fbd-8bc97c5781e5.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![image](https://user-images.githubusercontent.com/93576145/163423734-6bead597-76a3-487c-be6c-3d23108407b8.png)
 
-### Markdown
+## Description
+**This Project about The Grand Auction 2022 contains the program, featured items, and sponser sections**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  **My activities on this project**
 
-```markdown
-Syntax highlighted code block
+  1. Created project files using githup work flow.
+  2. Create two pages Home and about.
+  3. Add mobile menu and Add items section dynamically using JS.
+  4. Include auction events.
+  5. stick to design, colors, and fonts in project requirments.
+  
+  **All images and names used in this website are for learning and display purposes only.**
 
-# Header 1
-## Header 2
-### Header 3
+## Built With
 
-- Bulleted
-- List
+- Major languages:- Html, Css and Javascript
 
-1. Numbered
-2. List
+- Frameworks:- VS code
 
-**Bold** and _Italic_ and `Code` text
+👤 **Author1**:- **Imran Belete**
 
-[Link](url) and ![Image](src)
-```
+- GitHub : [@ibel251](https://github.com/githubhandle)
+- Twitter : [@ImranBel251](https://twitter.com/twitterhandle)
+- LinkedIn : [ibbimran7@gmail.com](https://linkedin.com/in/linkedinhandle)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+# Site live demo
+[Check live website](https://ibel251.github.io/grand-auction/)
 
-### Jekyll Themes
+# Getting started
+## Prerequisites
+Web Browser.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iBel251/grand-auction/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 🤝 Contributing
 
-### Support or Contact
+Contributions, issues, and feature requests are welcome!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feel free to check the [issues page](../../issues/). issues page. 
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+
+## Acknowledgments
+
+Thanks to [Cindy Shin](https://www.behance.net/adagio07), Her design is the base template for this project.
+
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
